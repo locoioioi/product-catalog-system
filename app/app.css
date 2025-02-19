@@ -1,7 +1,10 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
+/* Custom styling variables */
 @theme {
+	/* Colors */
 	--color-fill-primary: #000000;
 	--color-fill-secondary: #979797;
 	--color-bg-primary: #eff2f6;
@@ -9,7 +12,9 @@
 	--color-text-primary: #000000;
 	--color-text-secondary: #979797;
 	--color-text-white: #eff2f6;
-	--fonts-announcement: "Public Sans", sans-serif;
+	/* Fonts */
+	--font-announcement: "Public Sans", sans-serif;
+	--font-head: "Inter", sans-serif;
 }
 
 @plugin "tailwindcss-animate";

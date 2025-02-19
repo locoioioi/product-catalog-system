@@ -4,7 +4,7 @@ import AnnouncementBar from "./AnnouncementBar";
 
 const Header: FC = () => {
 	return (
-		<div>
+		<div className="border-b-[1px] border-black ">
 			<AnnouncementBar />
 			<Navbar />
 		</div>
