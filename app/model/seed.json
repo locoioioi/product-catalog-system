@@ -1,0 +1,80 @@
+[
+	{
+		"name": "Running Shoes",
+		"description": "Comfortable running shoes for all-day wear.",
+		"price": 99.99,
+		"stock": 20,
+		"categoryId": "jh7fb1ga1173jc8r9yrby2cna17anrra",
+		"size": ["7", "8", "9", "10"],
+		"colors": ["Black", "White", "Blue"],
+		"images": [
+			"https://example.com/shoes1.jpg",
+			"https://example.com/shoes1-side.jpg"
+		]
+	},
+	{
+		"name": "Casual Sneakers",
+		"description": "Lightweight sneakers for daily use.",
+		"price": 79.99,
+		"stock": 15,
+		"categoryId": "jh7bhhd26yn6776nw2q4s1xvf17amgpx",
+		"size": ["6", "7", "8", "9"],
+		"colors": ["Red", "Grey"],
+		"images": [
+			"https://example.com/sneakers1.jpg",
+			"https://example.com/sneakers1-side.jpg"
+		]
+	},
+	{
+		"name": "T-Shirt",
+		"description": "Soft cotton t-shirt with various colors.",
+		"price": 29.99,
+		"stock": 50,
+		"categoryId": "jh7fb1ga1173jc8r9yrby2cna17anrra",
+		"size": ["S", "M", "L", "XL"],
+		"colors": ["Black", "White", "Green"],
+		"images": [
+			"https://example.com/tshirt1.jpg",
+			"https://example.com/tshirt1-back.jpg"
+		]
+	},
+	{
+		"name": "Denim Jacket",
+		"description": "Stylish and durable denim jacket.",
+		"price": 119.99,
+		"stock": 10,
+		"categoryId": "jh7fb1ga1173jc8r9yrby2cna17anrra",
+		"size": ["M", "L", "XL"],
+		"colors": ["Blue", "Black"],
+		"images": [
+			"https://example.com/jacket1.jpg",
+			"https://example.com/jacket1-side.jpg"
+		]
+	},
+	{
+		"name": "Leather Wallet",
+		"description": "Premium leather wallet with card slots.",
+		"price": 49.99,
+		"stock": 30,
+		"categoryId": "jh7bhhd26yn6776nw2q4s1xvf17amgpx",
+		"size": [],
+		"colors": ["Brown", "Black"],
+		"images": [
+			"https://example.com/wallet1.jpg",
+			"https://example.com/wallet1-inside.jpg"
+		]
+	},
+	{
+		"name": "Sunglasses",
+		"description": "UV protection sunglasses with polarized lenses.",
+		"price": 89.99,
+		"stock": 25,
+		"categoryId": "jh7b71xes31hpskpyrx5bgg8hd7am7pz",
+		"size": [],
+		"colors": ["Black", "Silver"],
+		"images": [
+			"https://example.com/sunglasses1.jpg",
+			"https://example.com/sunglasses1-case.jpg"
+		]
+	}
+]
