@@ -23,7 +23,7 @@ const Navbar: FC = () => {
 
 					<li>
 						<Link
-							to={"/"}
+							to={"/shop"}
 							className="text-[17px]"
 							style={{ fontFamily: "var(--font-head)" }}
 						>
