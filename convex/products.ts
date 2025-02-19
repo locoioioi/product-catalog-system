@@ -2,6 +2,21 @@ import { query } from "./_generated/server";
 import { v } from "convex/values";
 import { paginationOptsValidator } from "convex/server";
 
+export const getProductById = query({
+	args: {
+		productId: v.id("products") // Accepts a valid product ID
+	},
+	handler: async (ctx, args) => {
+		const product = await ctx.db.get(args.productId);
+
+		if (!product) {
+			throw new Error("Product not found");
+		}
+
+		return product;
+	}
+});
+
 export const getFilteredProducts = query({
 	args: {
 		paginationOpts: paginationOptsValidator,
