@@ -13,7 +13,7 @@
 	--color-text-secondary: #979797;
 	--color-text-white: #eff2f6;
 	/* Fonts */
-	--font-announcement: "Public Sans", sans-serif;
+	--font-sans: "Public Sans", sans-serif;
 	--font-head: "Inter", sans-serif;
 }
 
@@ -114,4 +114,88 @@
 	body {
 		@apply bg-background text-foreground;
 	}
+}
+
+.heading-1 {
+	font-size: 72px;
+	line-height: 80px;
+	font-weight: 600;
+	font-family: var(--font-sans);
+}
+
+.heading-2 {
+	font-size: 56px;
+	line-height: 62px;
+	font-weight: 600;
+	font-family: var(--font-sans);
+}
+
+.heading-3 {
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 600;
+	font-family: var(--font-sans);
+}
+
+.heading-4 {
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: 600;
+	font-family: var(--font-sans);
+}
+
+.heading-5 {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 600;
+	font-family: var(--font-sans);
+}
+
+.paragraph-1 {
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 400; /* Regular */
+	font-family: var(--font-sans);
+}
+
+.paragraph-2 {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	font-family: var(--font-sans);
+}
+
+.paragraph-3 {
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	font-family: var(--font-sans);
+}
+
+.paragraph-4 {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	font-family: var(--font-sans);
+}
+
+.button-large {
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 600;
+	font-family: var(--font-sans);
+}
+
+.button-big {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 600;
+	font-family: var(--font-sans);
+}
+
+.button-small {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+	font-family: var(--font-sans);
 }

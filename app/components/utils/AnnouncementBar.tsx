@@ -7,7 +7,7 @@ const AnnouncementBar: FC = () => {
 				<p
 					className="text-base font-medium"
 					style={{
-						fontFamily: "var(--font-announcement)"
+						fontFamily: "var(--font-sans)"
 					}}
 				>
 					USD
@@ -15,7 +15,7 @@ const AnnouncementBar: FC = () => {
 				<p
 					className="text-base font-medium"
 					style={{
-						fontFamily: "var(--font-announcement)"
+						fontFamily: "var(--font-sans)"
 					}}
 				>
 					FREE SHIPPING ON ALL HERMAN MILLER! FEB. 25–28.
@@ -23,7 +23,7 @@ const AnnouncementBar: FC = () => {
 				<p
 					className="text-base font-medium"
 					style={{
-						fontFamily: "var(--font-announcement)"
+						fontFamily: "var(--font-sans)"
 					}}
 				>
 					Support

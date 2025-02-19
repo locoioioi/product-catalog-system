@@ -22,19 +22,31 @@ const Navbar: FC = () => {
 					</li>
 
 					<li>
-						<Link to={"/"} className="text-[17px]">
+						<Link
+							to={"/"}
+							className="text-[17px]"
+							style={{ fontFamily: "var(--font-head)" }}
+						>
 							Shop
 						</Link>
 					</li>
 
 					<li>
-						<Link to={"/"} className="text-[17px]">
+						<Link
+							to={"/"}
+							className="text-[17px]"
+							style={{ fontFamily: "var(--font-head)" }}
+						>
 							Stories
 						</Link>
 					</li>
 
 					<li>
-						<Link to={"/"} className="text-[17px]">
+						<Link
+							to={"/"}
+							className="text-[17px]"
+							style={{ fontFamily: "var(--font-head)" }}
+						>
 							About
 						</Link>
 					</li>
