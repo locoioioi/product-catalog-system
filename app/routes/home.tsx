@@ -1,10 +1,18 @@
-import { Button } from "~/components/ui/button";
+import { Outlet } from "react-router";
+import Footer from "~/components/utils/Footer";
+import Header from "~/components/utils/Header";
 
 export default function Home() {
 	return (
-		<div className="text-2xl">
-			hello World
-			<Button>Submit</Button>
+		<div className="flex flex-col h-dvh">
+			<Header />
+
+			{/* Content */}
+			<div className="flex-1">
+				<Outlet />
+			</div>
+
+			<Footer />
 		</div>
 	);
 }
