@@ -74,8 +74,6 @@ const Filter: FC = () => {
 						</SelectGroup>
 					</SelectContent>
 				</Select>
-
-				<p className="text-right mt-2">Showing 0 Products</p>
 			</div>
 		</div>
 	);

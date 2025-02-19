@@ -1,11 +1,12 @@
 import { useState, type FC } from "react";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 import usePlaceHolder from "~/hooks/navbar/usePlaceHolder";
 
 const Navbar: FC = () => {
 	const { placeHolder, onFocusPlaceHolder, resetPlaceHolder } =
 		usePlaceHolder();
 
+	const navigate = useNavigate();
 	return (
 		<div className="max-w-[1200px] m-auto h-[60px] flex gap-8 justify-between items-center">
 			<div>
@@ -80,7 +81,12 @@ const Navbar: FC = () => {
 				</div>
 
 				{/* Login button */}
-				<div className="text-[17px] cursor-pointer hover:opacity-75 transition-all duration-200">
+				<div
+					className="text-[17px] cursor-pointer hover:opacity-75 transition-all duration-200"
+					onClick={() => {
+						navigate("/login");
+					}}
+				>
 					Login
 				</div>
 			</div>

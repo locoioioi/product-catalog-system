@@ -10,6 +10,7 @@ import {
 import type { Route } from "./+types/root";
 import "./app.css";
 import { ConvexProvider, ConvexReactClient } from "convex/react";
+import { ConvexAuthProvider } from "@convex-dev/auth/react";
 
 export const links: Route.LinksFunction = () => [
 	{ rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -30,19 +31,24 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 	return (
 		<ConvexProvider client={convex}>
-			<html lang="en">
-				<head>
-					<meta charSet="utf-8" />
-					<meta name="viewport" content="width=device-width, initial-scale=1" />
-					<Meta />
-					<Links />
-				</head>
-				<body>
-					{children}
-					<ScrollRestoration />
-					<Scripts />
-				</body>
-			</html>
+			<ConvexAuthProvider client={convex}>
+				<html lang="en">
+					<head>
+						<meta charSet="utf-8" />
+						<meta
+							name="viewport"
+							content="width=device-width, initial-scale=1"
+						/>
+						<Meta />
+						<Links />
+					</head>
+					<body>
+						{children}
+						<ScrollRestoration />
+						<Scripts />
+					</body>
+				</html>
+			</ConvexAuthProvider>
 		</ConvexProvider>
 	);
 }
